@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Tournoi de football du Québec 2025</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+
+<header class="site-header">
+  <div class="brand">
+    <img src="assets/Logo TP2.png" alt="Logo Tournoi de football du Québec 2025" />
+    <div class="brand-text">
+      <h1>Tournoi de football du Québec</h1>
+      <span class="year">2025</span>
+    </div>
+  </div>
+  <nav class="main-nav" aria-label="Navigation principale">
+    <a href="index.html" >Accueil</a>
+    <a href="classement.html">Classement</a>
+    <a href="programme.html">Résultats</a>
+    <a href="inscription.html">Inscription</a>
+    <a href="galerie.html">Galerie</a>
+    <a href="infos.html">Infos</a>
+  </nav>
+</header>
+
+<main>
+  <h2 class="page-title">Inscription</h2>
+  <p>Remplissez le formulaire ci-dessous pour inscrire votre équipe ou vous inscrire individuellement.</p>
+
+  <form class="card form" action="#" method="post" enctype="multipart/form-data">
+    <fieldset>
+      <legend>Identité</legend>
+      <div class="grid-2">
+        <label>Prénom
+          <input type="text" name="prenom" placeholder="Ex. Alex" required />
+        </label>
+        <label>Nom
+          <input type="text" name="nom" placeholder="Ex. Tremblay" required />
+        </label>
+      </div>
+      <div class="grid-2">
+        <label>Courriel
+          <input type="email" name="email" placeholder="exemple@courriel.com" required />
+        </label>
+        <label>Date de naissance
+          <input type="date" name="naissance" required />
+        </label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Profil</legend>
+      <div class="grid-3">
+        <div>
+          <span class="label">Sexe</span>
+          <label><input type="radio" name="sexe" value="Homme" required /> Homme</label>
+          <label><input type="radio" name="sexe" value="Femme" /> Femme</label>
+          <label><input type="radio" name="sexe" value="Autre" /> Autre</label>
+        </div>
+        <label>Pays de résidence
+          <input list="pays" name="pays" placeholder="Commencez à taper..." required />
+          <datalist id="pays">
+            <option value="Canada"><option value="France"><option value="Belgique">
+            <option value="Suisse"><option value="Maroc"><option value="Tunisie">
+            <option value="Algérie"><option value="Côte d'Ivoire"><option value="Sénégal">
+          </datalist>
+        </label>
+        <label>Télécharger une photo
+          <input type="file" name="photo" accept="image/*" />
+        </label>
+      </div>
+      <label>Type de billet
+        <select name="billet" required>
+          <option value="">— Choisir —</option>
+          <option>Étudiant</option>
+          <option>Standard</option>
+          <option>VIP</option>
+        </select>
+      </label>
+    </fieldset>
+
+    
+    <fieldset>
+      <legend>Position</legend>
+      <div class="grid-3">
+        <label><input type="checkbox" name="position" value="gardien" /> Gardien de but</label>
+        <label><input type="checkbox" name="position" value="attaquant" /> Attaquant</label>
+        <label><input type="checkbox" name="position" value="defenseur" /> Défenseur</label>
+      </div>
+    </fieldset>
+
+
+    <label>Commentaires
+      <textarea name="commentaires" rows="5" placeholder="Allergies, demandes spéciales, etc."></textarea>
+    </label>
+
+    <label class="terms"><input type="checkbox" required /> J'accepte les conditions d'utilisation.</label>
+
+    <button class="btn" type="submit"><span class="material-icons" aria-hidden="true">send</span>Envoyer</button>
+  </form>
+</main>
+
+<footer class="site-footer">
+  <p>© 2025 Tournoi de football du Québec — Montréal, QC • <span class="material-icons" aria-hidden="true">mail</span> <a href="mailto:contact@tfq2025.ca">contact@tfq2025.ca</a> • <span class="material-icons" aria-hidden="true">call</span> <a href="tel:+15145550123">(514) 555‑0123</a></p>
+</footer>
+
+</body>
+</html>
