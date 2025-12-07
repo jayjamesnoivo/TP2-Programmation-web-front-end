@@ -5,8 +5,8 @@ TP2 pour le cours de Programmation Web (Front-End) au College de Maisonneuve **f
 
 ---
 
-🎯 **Objectif du projet**
-
+🎯 **Objectif du projet :**
+---
 L’objectif était de construire un site Web responsive en HTML, CSS et JavaScript, en appliquant les notions vues en classe, incluant :
 
 Structure HTML5
@@ -21,9 +21,8 @@ Bonne organisation des fichiers (assets, css, js, pages…)
 
 ---
 
-⚽ **Description du site : Tournoi de Soccer du Québec**
-
-Le site présente un tournoi fictif de soccer amateur au Québec, avec plusieurs pages :
+⚽ **Pages du site : Tournoi de Soccer du Québec :**
+---
 
 🏆 **Accueil**
 
@@ -43,8 +42,8 @@ Permet aux joueurs de s’inscrire au tournoi via un formulaire.
 
 ---
 
-👨‍💻 **Auteur**
-
+👨‍💻 **Auteur :**
+---
 **Jeremy-James Noivo**
 
 ---
