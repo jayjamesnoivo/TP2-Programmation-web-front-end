@@ -1,12 +1,19 @@
 TP2-Programmation-web-front-end
 ---
 
-TP2 pour le cours de Programmation Web (Front-End) au College de Maisonneuve **fait le 5 septembre 2025**. Création d’un site web statique complet présentant un tournoi de soccer organisé au Québec.
+Voici mon TP2 pour le cours de Programmation Web (Front-End) au College de Maisonneuve **fait le 5 septembre 2025**. Création d’un site web statique complet présentant un tournoi de soccer organisé au Québec.
+
+Link : https://jayjamesnoivo.github.io/TP2-Programmation-web-front-end/
+
+👨‍💻 **Auteur :**
+**Jeremy-James Noivo**
 
 ---
 
 🎯 **Objectif du projet :**
+
 ---
+
 L’objectif était de construire un site Web responsive en HTML, CSS et JavaScript, en appliquant les notions vues en classe, incluant :
 
 Structure HTML5
@@ -22,30 +29,23 @@ Bonne organisation des fichiers (assets, css, js, pages…)
 ---
 
 ⚽ **Pages du site : Tournoi de Soccer du Québec :**
+
 ---
 
-🏆 **Accueil**
+**Accueil :**
 
 Présentation du tournoi, dates, lieu et description générale.
 
-👥 **Classement**
+**Classement :**
 
 Classement des équipes.
 
-📅 **Résultats**
+**Résultats :**
 
 Liste et horaire des matchs entre les équipes.
 
-📝 **Formulaire d’inscription**
+**Formulaire d’inscription :**
 
 Permet aux joueurs de s’inscrire au tournoi via un formulaire.
 
 ---
-
-👨‍💻 **Auteur :**
----
-**Jeremy-James Noivo**
-
----
-
-Link : https://jayjamesnoivo.github.io/TP2-Programmation-web-front-end/
