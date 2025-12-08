@@ -32,19 +32,19 @@ Bonne organisation des fichiers (assets, css, js, pages…)
 
 ---
 
-**Accueil :**
+**ACCEUIL :**
 
 Présentation du tournoi, dates, lieu et description générale.
 
-**Classement :**
+**CLASSEMENT :**
 
 Classement des équipes.
 
-**Résultats :**
+**RÉSULTATS :**
 
 Liste et horaire des matchs entre les équipes.
 
-**Formulaire d’inscription :**
+**FORMULAIRE D'INSCRIPTION :**
 
 Permet aux joueurs de s’inscrire au tournoi via un formulaire.
 
